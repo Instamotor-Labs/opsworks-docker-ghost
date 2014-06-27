@@ -1,3 +1,3 @@
 docker_container 'ghost' do
-  action :kill
+  action :remove
 end
