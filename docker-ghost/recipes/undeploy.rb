@@ -1,4 +1,4 @@
-docker_container 'dockerfile/ghost' do
+docker_container 'ghost' do
   signal 'QUIT'
   action :kill
 end
