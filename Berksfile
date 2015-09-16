@@ -1,3 +1,3 @@
 source "https://api.berkshelf.com"
 
-cookbook "docker", github: "Instamotor-Labs/chef-docker"
+cookbook "docker", github: "otaki-ryuta/chef-docker"
