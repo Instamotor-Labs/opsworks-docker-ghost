@@ -1,4 +1,5 @@
-docker_image 'ghost:latest' do
+docker_image 'ghost' do
+  tag 'latest'
   action :pull
   notifies :redeploy,'docker_container[ghost]', :immediately
 end
