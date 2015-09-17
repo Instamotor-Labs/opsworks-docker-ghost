@@ -6,7 +6,7 @@ end
 docker_container 'ghost' do
   image 'ghost'
   action :run
-  port "80:2368"
+  port '80:2368'
   detach true
-  volume "/var/lib/ghost:/var/lib/ghost"
+  volume '/var/lib/ghost:/var/lib/ghost'
 end
