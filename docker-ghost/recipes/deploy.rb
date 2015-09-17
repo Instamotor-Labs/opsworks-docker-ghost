@@ -8,4 +8,5 @@ docker_container 'ghost' do
   action :run
   port "80:2368"
   detach true
+  volume "/var/lib/ghost:/var/lib/ghost"
 end
